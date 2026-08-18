@@ -1,0 +1,42 @@
+{
+  "collections": [
+    {
+      "collectionId": "users",
+      "documents": [
+        {
+          "documentId": "placeholder_user",
+          "fields": {
+            "email": "string",
+            "total_capital": "number",
+            "balance": "number",
+            "brokerage_config": {
+              "api_key": "string",
+              "api_secret": "string",
+              "broker_name": "string"
+            },
+            "last_login": "timestamp"
+          }
+        }
+      ]
+    },
+    {
+      "collectionId": "active_positions",
+      "documents": [
+        {
+          "documentId": "placeholder_position",
+          "fields": {
+            "userId": "string",
+            "symbol": "string",
+            "entryPrice": "number",
+            "shares": "number",
+            "status": "string",
+            "entryDate": "string",
+            "initialStopLossPct": "number",
+            "initialTargetPct": "number",
+            "highestPriceReached": "number"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Nifty Accumulation Zone Scanner & Backtester",
+  "description": "High-performance analytical engine powered by embedded DuckDB for scanning institutional accumulation zones across Nifty indices, testing walk-forward strategies, and AI market commentary.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
